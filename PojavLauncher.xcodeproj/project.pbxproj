@@ -64,6 +64,7 @@
 				TargetAttributes = {
 					054957C52986E8DC00EFD4CE = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -114,7 +115,11 @@
 		054957C92986E8DC00EFD4CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				PLATFORM = 2;
 				PROVISIONING = "/Users/evaluna/Library/MobileDevice/Provisioning Profiles/WildcardProvisioning.mobileprovision";
+				SWIFT_OBJC_BRIDGING_HEADER = "PojavLauncher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				_COMMENT = "You can change PLATFORM to vtool for non-iOS. PROVISIONING, SIGNING_TEAMID, and TEAMID are used for codesign, they won't work on your machine without edits. PATH, VERBOSE, and RELEASE do not need to be changed.";
 			};
 			name = Debug;
@@ -122,7 +127,11 @@
 		054957CA2986E8DC00EFD4CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				PLATFORM = 2;
 				PROVISIONING = "/Users/evaluna/Library/MobileDevice/Provisioning Profiles/WildcardProvisioning.mobileprovision";
+				SWIFT_OBJC_BRIDGING_HEADER = "PojavLauncher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				_COMMENT = "You can change PLATFORM to vtool for non-iOS. PROVISIONING, SIGNING_TEAMID, and TEAMID are used for codesign, they won't work on your machine without edits. PATH, VERBOSE, and RELEASE do not need to be changed.";
 			};
 			name = Release;

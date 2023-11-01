@@ -91,7 +91,7 @@
 "login.jit.fail.description_unsupported" = "An unsupported installation method has been detected. Please reinstall using one of supported methods.";
 
 // Login buttons
-"login.menu.sendlogs" = "Send your logs";
+"login.menu.sendlogs" = "downthecrop no JIT build!";
 "login.option.add" = "Add account";
 "login.option.select" = "Select account";
 "login.option.demo" = "Demo account";
